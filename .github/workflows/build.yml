@@ -13,3 +13,5 @@ jobs:
     - name: Setup compiler
       run: |
         gcc --version
+        cd _testPlan/
+        g++ code.cpp -o code
