@@ -1,6 +1,6 @@
 name: Git Inspector
 
-on:[push,pull_request]
+on: [push,pull_request]
 
 jobs:
   inspect:
